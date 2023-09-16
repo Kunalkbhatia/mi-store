@@ -1,0 +1,43 @@
+.category{
+    background-color: rgb(228,228,228);
+}
+
+.category-links{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    padding-left: 350px;
+    padding-right: 350px ;
+    padding-bottom: 40px;
+
+
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.link:hover{
+    color: orangered;
+    cursor: pointer;
+} 
+
+.listing{
+    display: flex;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: white;
+    width: 31%;
+    margin:  0.7vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+}

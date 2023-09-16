@@ -1,0 +1,8 @@
+.image-section{
+    margin: 0 1vmax;
+    transition: all 0.5s;
+}
+
+.image-section:hover{
+    box-shadow: 6px 6px 15px rgba(213, 91, 9, 0.363);
+  }

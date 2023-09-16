@@ -1,0 +1,70 @@
+.navbar-section{
+    z-index: 1000;
+    background-color: #eeeeee;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    background-color: orangered;
+    width: 58px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transform: translateX();
+}
+
+#logo-image{
+    transform: translateX(-54px);
+    transition: transform 0.2s;
+}
+
+.logo:hover #logo-image {
+    transform: translateX(0px);
+    transition: transform 0.2s;
+}
+
+.navlinks{
+
+    display: flex;
+    gap: 40px;
+}
+
+.navlinks a {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.1vmax;
+}
+
+.navlinks > a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-input{
+    background-color: #eeeeee;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+    width: 15vmax;
+    font-size: 1.1vmax;
+    outline: none;
+    color:rgb(61, 61, 61);
+    font-weight: 100;
+}
+
+.search-bar > svg{
+    fill: orangered;
+}
