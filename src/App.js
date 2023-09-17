@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <PreNav />
-      <NavSection url={data.logo} />
+      <NavSection url={data.logo}/>
       <Slider start={data.banner.start} />
       <Offers offers={data.offer} />
       <Heading text="STAR PRODUCTS" />
